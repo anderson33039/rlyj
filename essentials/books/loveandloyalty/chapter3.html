@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE AND LOYALTY (CHAPTER 3)</title>
+</head>
+<link rel="shortcut icon" href="images/loveloyalty.jpg" type="image/x-icon">
+<style>
+    body {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+    }
+    #story {
+        font-size: xx-large;
+        text-align: center;
+    }
+    button {
+        position: sticky;
+        top: 10px;
+        height: 50px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 10px;
+    }
+    button:hover {
+        background-color: darkgray;
+    }
+    button:active {
+        background-color: gray;
+    }
+</style>
+<body>
+    <button id="back" onclick="previous();"><b>PREVIOUS CHAPTER</b></button>
+    <button id="back" onclick="back()"><b>BACK TO MAIN MENU</b></button>
+    <button id="back" onclick="next();"><b>NEXT CHAPTER</b></button>
+    <h1>CHAPTER 3</h1><br>
+    <p id="story">
+        COMING SOON...
+    </p><br>
+</body>
+<script>
+    function back() {
+        window.location.href = "../loveandloyalty.html";
+    };
+    function previous() {
+        window.location.href = "chapter2.html";
+    }
+    function next() {
+        window.location.href = "chapter4.html";
+    }
+</script>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKS</title>
+</head>
+<style>
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .book-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .header {
+        border: 2px solid black;
+        border-radius: 2%;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        background-color: orange;
+    }
+    .book {
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 1%;
+    }
+    .book:hover {
+        background-color: darkgray;
+    }
+    .book:active {
+        background-color: gray;
+    }
+    .book img {
+        border: 2px solid black;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .header button {
+        font-weight: bold;
+        margin-bottom: 20px;
+        width: 12%;
+        height: 30px;
+        border: 2px solid black;
+    }
+    .header button:hover {
+        background-color: darkgray;
+    }
+    .header button:active {
+        background-color: gray;
+    }
+</style>
+<body>
+    <div class="book-container">
+        <div class="header">
+            <h1>VONNIEWRITES'
+                    <br>
+                WRITTEN BOOKS
+            </h1>
+            <button onclick="back()">BACK</button>
+        </div>
+        <div class="library">
+            <button onclick="open1()" class="book">
+                <img src="../images/emisious.jpg" width="170" height="200" draggable="false">
+                <h2>EMISIOUS</h2>
+            </button>
+            <button onclick="open2()" class="book">
+                <img src="../images/eyesofdeath.jpg" width="170" height="200" draggable="false">
+                <h2>EYES OF DEATH</h2>
+            </button>
+            <button onclick="open3()" class="book">
+                <img src="../images/loveloyalty.jpg" width="170" height="200" draggable="false">
+                <h2>LOVE & LOYALTY</h2>
+            </button>
+        </div>
+    </div>
+</body>
+<script>
+    function back() {
+        window.location.href = "../index.html";
+    };
+    function open1() {
+        window.location.href = "books/emisious.html";
+    }
+    function open2() {
+        window.location.href = "books/eyesofdeath.html";
+    }
+    function open3() {
+        window.location.href = "books/loveandloyalty.html";
+    }
+</script>
+</html>

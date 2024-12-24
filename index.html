@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VONVON</title>
+</head>
+<style>
+    body {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .selection-container {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .head-banner {
+        border: 2px solid black;
+        border-radius: 2%;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        background-color: orange;
+    }
+    .selection-list {
+        display: contents;
+    }
+    .list-button {
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 1%;
+    }
+    .list-button:hover {
+        background-color: darkgray;
+    }
+    .list-button:active {
+        background-color: gray;
+    }
+    .list-button img {
+        border: 2px solid black;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+</style>
+<body>
+    <div class="selection-container">
+        <div class="head-banner">
+            <h1>WELCOME TO MY LIBRARY</h1>
+            <h3>SIGNED BY: VONNIEWRITES</h3>
+        </div>
+        <div class="selection-list">
+            <button class="list-button" onclick="books();">
+                <img src="images/books.jpg" width="170" height="200" draggable="false">
+                <h1 class="title" draggable="false">BOOKS</h1>
+            </button>
+            <button class="list-button" onclick="artworks();">
+                <img src="images/artworks.jpg" width="170" height="200" draggable="false">
+                <h1 class="title" draggable="false">ARTWORKS</h1>
+            </button>
+            <button class="list-button" onclick="quotes();">
+                <img src="images/quotes.jpg" width="170" height="200" draggable="false">
+                <h1 class="title" draggable="false">QUOTES</h1>
+            </button>
+            <button class="list-button" onclick="poems();">
+                <img src="images/poems.jpg" width="170" height="200" draggable="false">
+                <h1 class="title" draggable="false">POEMS</h1>
+            </button>
+        </div>
+    </div>
+</body>
+<script>
+    function books() {
+        window.location.href = "essentials/books.html";
+    };
+    function artworks() {
+        window.location.href = "essentials/artworks.html";
+    };
+    function quotes() {
+        window.location.href = "essentials/quotes.html";
+    };
+    function poems() {
+        window.location.href = "essentials/poems.html";
+    };
+</script>
+</html>
