@@ -11,13 +11,32 @@
         text-align: center;
         background-color: rgb(236, 236, 236);
     }
-    #story {
-        font-size: xx-large;
-        text-align: center;
-    }
-    button {
+    .glass_button {
+        background-color: gray;
         position: sticky;
         top: 10px;
+        width: auto;
+        height: 70px;
+    }
+    .story_container {
+        color: black;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #story {
+        text-align: justify;
+        text-align-last: left;
+        hyphens: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 20px;
+        width: 800px;
+        font-weight: 500;
+    }
+    button {
         height: 50px;
         width: 100px;
         border: 2px solid black;
@@ -31,135 +50,141 @@
     }
 </style>
 <body>
-    <button id="back" onclick="previous();"><b>PREVIOUS CHAPTER</b></button>
+    <div class="glass_button">
+        <button id="back" onclick="previous();"><b>PREVIOUS CHAPTER</b></button>
     <button id="back" onclick="back()"><b>BACK TO MAIN MENU</b></button>
     <button id="back" onclick="next();"><b>NEXT CHAPTER</b></button>
+    </div>
+    
     <h1>CHAPTER 2</h1><br>
-    <p id="story">
-        [kinabukasan]
-        <br><br>
-        Hindi pa rin nag babago si Kiyan at napaka tahimik pa rin nito sa klase. Kasabay non, mas lalo na syang dumidikit sakin kumpara noon. Hindi ko na maintindihan ang nangyayari. At tsaka, sa tagal ko na nabubuhay sa mundong ito, ngayon ko lang nalaman ang tungkol sa maliwanag na aura na sinasabi nya. Tila bay kinakatakutan nya ang aura na iyon at gustong-gusto nya ito mapatay. 
-        <br><br>
-        Nang matapos ang klase ay dumeretso ulit ako sa cafeteria upang magrecess. Hindi ko na nakita ang babaeng may maliwanag na aura sa cafeteria. Sa malamang at sa malamang, ay natukoy nya ang plano kayat di na ito nagpakita pa.
-        <br><br>
-        Bandang uwian ay naisipan kong dumaan sa grocery para mamili ng aking lulutuin para mamayang gabi. Ang plano ko naman lutuin sa araw na to ay beef steak. Pumunta ako sa meat section at namili ng mapula at malaman na mga karne. Sumunod ay dumaan ako sa veggie section para mamili ng gulay at iba pang sangkap para sa lulutuin ko. 
-        <br><br>
-        Pagkatapos ko mamili ng mga kailangan ko ay pumila na ako sa counter para magbayad at makauwi na nang makita ko nanaman ang babaeng maliwanag ang aura at nakasuot ito ng uniform na gaya sa suot namin sa paaralan. Nauna ako na matapos kaya inabangan ko sya sa labas pero ilang minuto pa ay wala nanaman akong nadatnan sa labas. 
-        <br><br>
-        Hindi ko alam kung matatawa ako o maiinis dahil di ko sya maabutan o di ko man lang sya makausap. Gusto ko malaman kung masama sya o mabuti. At wala naman magiging problema sa laban dahil ako ang pinakamalakas na bampira sa mundong ito.
-        <br><br>
-        Dahil nahuli ako nang uwi, nagmadali ako pauwi ng apartment gamit ang pagtakbo at gumamit ako ng itim na cape para di ako makita at saktong gabi na iyon kaya walang nakapansin. Nang makauwi ako ay sinimulan ko na magluto at talagang ginandahan at inayusan ko ang pagkakaluto ko para maging masarap ito.
-        <br><br>
-        "Zyro Hiroshi Villamore."
-        <br><br>
-        Napalingon ako sa boses-babaeng iyon at paglingon ko ay bigla akong nasilaw sa isang napakaliwanag na aura at bigla rin itong nawala at naglaho na parang bula. Hindi ko man nakita ang mukha nito ngunit nakita ko ang mata nitong kulay berde at kumikinang ito na parang diyamante. Isang malakas na pagkatok sa pinto ang aking narinig at nakabalik na ako sa aking sarili nang lumitaw sa harapan ko si Kiyan at hinawakan ako sa magkabilaang braso.
-        <br><br>
-        "Zyro! What happened?!" tanong nito at tila bay tinahi ang bibig ko at di ako makapagsalita sa sobrang pagkabigla.
-        <br><br>
-        "Ang mga berdeng mata na iyon... tanda ko pa noong una ko itong nakita..."
-        <br><br>
-        [FLASHBACK]
-        <br><br>
-        "Zyro... ingatan mo ang sarili mo ha..." naghihingalong saad ni Atasha.
-        <br><br>
-        "Atasha... laban lang... please." saad ko at lumuluha sa harap nya.
-        <br><br>
-        "Lagi kitang gagabayan... lagi akong nasa tabi mo..." saad ni Atasha bago ito nawalan ng malay.
-        <br><br>
-        Isang liwanag mula sa kisame ang nagpakita at isang kamay na may matang berde sa palad ang lumabas dito at sumabog bago ako mawalan ng malay. Pag-gising ko ay wala na ang katawan ni Atasha ganon din ang liwanag.
-        <br><br>
-        [END OF FLASHBACK]
-        <br><br>
-        "Marahil isa siyang diyos..." saad ko habang nakatulala at inaalala ang lahat.
-        <br><br>
-        "What are you talking about?" tanong ni Kiyan sakin.
-        <br><br>
-        "Tinitigan ko siya na may lamig sa aking mga mata. I saw those eyes one time before Atasha died. Sya ang kumuha kay Atasha after she died." saad ko sakanya at lumuha.
-        <br><br>
-        "whos Atasha?"
-        <br><br>
-        "My wife."
-        <br><br>
-        ....
-        <br><br>
-        [kinabukasan]
-        <br><br>
-        Natulala at nawalan ako ng focus sa klase. I mean, I dont need those classes since ilang beses na akong pabalik-balik dito. Nawalan nanaman ako ng gana na makihalubilo sa mga tao matapos ang pangyayare na iyon. 
-        <br><br>
-        "You okay? Zyro?" tanong ni Yohan sakin na tila bay may pag-aalala sa boses nya.
-        <br><br>
-        "yeah." tipid na saad ko at lumabas ng classroom.
-        <br><br>
-        Pinabagal ko ang oras at lumabas ako ng school para pumunta sa burol malapit sa paaralan namin at magpahangin doon.
-        <br><br>
-        Nakakainis.
-        <br><br>
-        Kung kailan nagiging maayos na ang lahat, tsaka pa nagiging malala ang mga nangyayari. Bakit kasi hindi pwedeng magsama nang matagal ang mortal at ang isang bampira. Bakit hindi ko sya pwedeng gawing immortal gaya ko? bakit ba ako pinapahirapan ng mundo? anong ginawa kong masama?
-        <br><br>
-        "Zyro."
-        <br><br>
-        Napalingon ako rito at isang babaeng maliwanag ang aura ang aking nakita na nakatayo sa hindi kalayuan. Kita ko ang liwanag ng kaniyang mata na kulay berde. Magkahalong galit, inis, at tuwa ko dahil sa aking nakita.
-        <br><br>
-        "ikaw ang dahilan kung bakit ako nagkakaganito." saad ko sa kaniya at di ko namalayan na lumiliwanag na ang aking mga mapupulang mga mata at nagsisimula na kumidlat ang kalangitan.
-        <br><br>
-        "hayaan mo muna akong magpaliwanag." saad niya.
-        <br><br>
-        "para saan pa?!" pasigaw na saad ko at yumanig ang lupa dahil sa galit na dala ko.
-        <br><br>
-        "Hindi ako ang kumuha sa asawa mo Zyro." saad niya. "hindi ako ang kalaban dito". dagdag niya.
-        <br><br>
-        "anong ibig mong sabihin?" tanong ko na may bahid ng pagtataka at naguguluhan na ako sa mga nangyayare.
-        <br><br>
-        "ikaw lang ang kaya kong kausapin dahil may dapat kang malaman." saad niya kayat pinilit kong kimalma upang mapakinggan ito.
-        <br><br>
-        "sabihin mo na ang mga dapat mong sabihin." saad ko rito.
-        <br><br>
-        "si Atasha, buhay siya." saad nya na ikinabigla ko.
-        <br><br>
-        "ano?!"
-        <br><br>
-        "buhay sya Zyro. At siya ay isang--"
-        <br><br>
-        "KATAPUSAN MO NA!!!"
-        <br><br>
-        Isang liwanag galing sa langit ang tumama sa babaeng iyon na dahilan ng pagkawala nito at nagin abo na lamang.
-        <br><br>
-        "PUTAKTE NAMAN KIYAN! ANONG GINAWA MO?!" saad ko kay Kiyan na ngayon ay nakatitig sa bangkay ng babaeng iyon.
-        <br><br>
-        "Pinatay ko lang ang dapat nating patayin Zyro." saad ni Kiyan.
-        <br><br>
-        "pero piste naman... may nabanggit siya tungkol kay Atasha! bakit hindi mo man lang pinatapos?!" saad ko.
-        <br><br>
-        "At naniwala ka naman doon?" saad ni Kiyan. "Lumingon ka sa likod mo." saad ni Kiyan at sinunod ko ito.
-        <br><br>
-        Nagulat ako sa nakita ko, isang gintong espada ang nasa lapag at nakatutok ito sakin.
-        <br><br>
-        Kung hindi ko pa sya tinuluyan, malamang tapos ka na. saad ni Kiyan at napahawak na lang sa sentido. "Ang hirap sayo Zyro, napaka lambot mo. Ang dali mong utuin." saad ni Kiyan.
-        <br><br>
-        "P-patawad." saad ko at yumuko.
-        <br><br>
-        "sige na." saad ni Kiyan. "umuwi ka muna at magpahinga. Ako na bahala mag excuse kay maam." saad ni Kiyan.
-        <br><br>
-        "salamat." saad ko at nagteleport ako pauwi at humiga sa sofa dahil nakakadrain ng energy ang ginawa ko kanina.
-        <br><br>
-        Ngunit...
-        <br><br>
-        Paano kung totoo na buhay pa si Atasha?...
-        <br><br>
-        Si Atasha ay isang ano?...
-        <br><br>
-        ----------
-        <br><br>
-        "tagumpay..."
-        <br><br>
-        "naihanda ko na po ang ating panauhin mahal na hari..."
-        <br><br>
-        "magaling... bukas ng umaga..."
-        <br><br>
-        "magsisimula na tayong sakupin ang mundo..."
-        <br><br>
-        TO BE CONTINUED.
-    </p><br>
+    <div class="story_container">
+        <p id="story">
+            [kinabukasan]
+            <br><br>
+            Hindi pa rin nag babago si Kiyan at napaka tahimik pa rin nito sa klase. Kasabay non, mas lalo na syang dumidikit sakin kumpara noon. Hindi ko na maintindihan ang nangyayari. At tsaka, sa tagal ko na nabubuhay sa mundong ito, ngayon ko lang nalaman ang tungkol sa maliwanag na aura na sinasabi nya. Tila bay kinakatakutan nya ang aura na iyon at gustong-gusto nya ito mapatay. 
+            <br><br>
+            Nang matapos ang klase ay dumeretso ulit ako sa cafeteria upang magrecess. Hindi ko na nakita ang babaeng may maliwanag na aura sa cafeteria. Sa malamang at sa malamang, ay natukoy nya ang plano kayat di na ito nagpakita pa.
+            <br><br>
+            Bandang uwian ay naisipan kong dumaan sa grocery para mamili ng aking lulutuin para mamayang gabi. Ang plano ko naman lutuin sa araw na to ay beef steak. Pumunta ako sa meat section at namili ng mapula at malaman na mga karne. Sumunod ay dumaan ako sa veggie section para mamili ng gulay at iba pang sangkap para sa lulutuin ko. 
+            <br><br>
+            Pagkatapos ko mamili ng mga kailangan ko ay pumila na ako sa counter para magbayad at makauwi na nang makita ko nanaman ang babaeng maliwanag ang aura at nakasuot ito ng uniform na gaya sa suot namin sa paaralan. Nauna ako na matapos kaya inabangan ko sya sa labas pero ilang minuto pa ay wala nanaman akong nadatnan sa labas. 
+            <br><br>
+            Hindi ko alam kung matatawa ako o maiinis dahil di ko sya maabutan o di ko man lang sya makausap. Gusto ko malaman kung masama sya o mabuti. At wala naman magiging problema sa laban dahil ako ang pinakamalakas na bampira sa mundong ito.
+            <br><br>
+            Dahil nahuli ako nang uwi, nagmadali ako pauwi ng apartment gamit ang pagtakbo at gumamit ako ng itim na cape para di ako makita at saktong gabi na iyon kaya walang nakapansin. Nang makauwi ako ay sinimulan ko na magluto at talagang ginandahan at inayusan ko ang pagkakaluto ko para maging masarap ito.
+            <br><br>
+            "Zyro Hiroshi Villamore."
+            <br><br>
+            Napalingon ako sa boses-babaeng iyon at paglingon ko ay bigla akong nasilaw sa isang napakaliwanag na aura at bigla rin itong nawala at naglaho na parang bula. Hindi ko man nakita ang mukha nito ngunit nakita ko ang mata nitong kulay berde at kumikinang ito na parang diyamante. Isang malakas na pagkatok sa pinto ang aking narinig at nakabalik na ako sa aking sarili nang lumitaw sa harapan ko si Kiyan at hinawakan ako sa magkabilaang braso.
+            <br><br>
+            "Zyro! What happened?!" tanong nito at tila bay tinahi ang bibig ko at di ako makapagsalita sa sobrang pagkabigla.
+            <br><br>
+            "Ang mga berdeng mata na iyon... tanda ko pa noong una ko itong nakita..."
+            <br><br>
+            [FLASHBACK]
+            <br><br>
+            "Zyro... ingatan mo ang sarili mo ha..." naghihingalong saad ni Atasha.
+            <br><br>
+            "Atasha... laban lang... please." saad ko at lumuluha sa harap nya.
+            <br><br>
+            "Lagi kitang gagabayan... lagi akong nasa tabi mo..." saad ni Atasha bago ito nawalan ng malay.
+            <br><br>
+            Isang liwanag mula sa kisame ang nagpakita at isang kamay na may matang berde sa palad ang lumabas dito at sumabog bago ako mawalan ng malay. Pag-gising ko ay wala na ang katawan ni Atasha ganon din ang liwanag.
+            <br><br>
+            [END OF FLASHBACK]
+            <br><br>
+            "Marahil isa siyang diyos..." saad ko habang nakatulala at inaalala ang lahat.
+            <br><br>
+            "What are you talking about?" tanong ni Kiyan sakin.
+            <br><br>
+            "Tinitigan ko siya na may lamig sa aking mga mata. I saw those eyes one time before Atasha died. Sya ang kumuha kay Atasha after she died." saad ko sakanya at lumuha.
+            <br><br>
+            "whos Atasha?"
+            <br><br>
+            "My wife."
+            <br><br>
+            ....
+            <br><br>
+            [kinabukasan]
+            <br><br>
+            Natulala at nawalan ako ng focus sa klase. I mean, I dont need those classes since ilang beses na akong pabalik-balik dito. Nawalan nanaman ako ng gana na makihalubilo sa mga tao matapos ang pangyayare na iyon. 
+            <br><br>
+            "You okay? Zyro?" tanong ni Yohan sakin na tila bay may pag-aalala sa boses nya.
+            <br><br>
+            "yeah." tipid na saad ko at lumabas ng classroom.
+            <br><br>
+            Pinabagal ko ang oras at lumabas ako ng school para pumunta sa burol malapit sa paaralan namin at magpahangin doon.
+            <br><br>
+            Nakakainis.
+            <br><br>
+            Kung kailan nagiging maayos na ang lahat, tsaka pa nagiging malala ang mga nangyayari. Bakit kasi hindi pwedeng magsama nang matagal ang mortal at ang isang bampira. Bakit hindi ko sya pwedeng gawing immortal gaya ko? bakit ba ako pinapahirapan ng mundo? anong ginawa kong masama?
+            <br><br>
+            "Zyro."
+            <br><br>
+            Napalingon ako rito at isang babaeng maliwanag ang aura ang aking nakita na nakatayo sa hindi kalayuan. Kita ko ang liwanag ng kaniyang mata na kulay berde. Magkahalong galit, inis, at tuwa ko dahil sa aking nakita.
+            <br><br>
+            "ikaw ang dahilan kung bakit ako nagkakaganito." saad ko sa kaniya at di ko namalayan na lumiliwanag na ang aking mga mapupulang mga mata at nagsisimula na kumidlat ang kalangitan.
+            <br><br>
+            "hayaan mo muna akong magpaliwanag." saad niya.
+            <br><br>
+            "para saan pa?!" pasigaw na saad ko at yumanig ang lupa dahil sa galit na dala ko.
+            <br><br>
+            "Hindi ako ang kumuha sa asawa mo Zyro." saad niya. "hindi ako ang kalaban dito". dagdag niya.
+            <br><br>
+            "anong ibig mong sabihin?" tanong ko na may bahid ng pagtataka at naguguluhan na ako sa mga nangyayare.
+            <br><br>
+            "ikaw lang ang kaya kong kausapin dahil may dapat kang malaman." saad niya kayat pinilit kong kimalma upang mapakinggan ito.
+            <br><br>
+            "sabihin mo na ang mga dapat mong sabihin." saad ko rito.
+            <br><br>
+            "si Atasha, buhay siya." saad nya na ikinabigla ko.
+            <br><br>
+            "ano?!"
+            <br><br>
+            "buhay sya Zyro. At siya ay isang--"
+            <br><br>
+            "KATAPUSAN MO NA!!!"
+            <br><br>
+            Isang liwanag galing sa langit ang tumama sa babaeng iyon na dahilan ng pagkawala nito at nagin abo na lamang.
+            <br><br>
+            "PUTAKTE NAMAN KIYAN! ANONG GINAWA MO?!" saad ko kay Kiyan na ngayon ay nakatitig sa bangkay ng babaeng iyon.
+            <br><br>
+            "Pinatay ko lang ang dapat nating patayin Zyro." saad ni Kiyan.
+            <br><br>
+            "pero piste naman... may nabanggit siya tungkol kay Atasha! bakit hindi mo man lang pinatapos?!" saad ko.
+            <br><br>
+            "At naniwala ka naman doon?" saad ni Kiyan. "Lumingon ka sa likod mo." saad ni Kiyan at sinunod ko ito.
+            <br><br>
+            Nagulat ako sa nakita ko, isang gintong espada ang nasa lapag at nakatutok ito sakin.
+            <br><br>
+            Kung hindi ko pa sya tinuluyan, malamang tapos ka na. saad ni Kiyan at napahawak na lang sa sentido. "Ang hirap sayo Zyro, napaka lambot mo. Ang dali mong utuin." saad ni Kiyan.
+            <br><br>
+            "P-patawad." saad ko at yumuko.
+            <br><br>
+            "sige na." saad ni Kiyan. "umuwi ka muna at magpahinga. Ako na bahala mag excuse kay maam." saad ni Kiyan.
+            <br><br>
+            "salamat." saad ko at nagteleport ako pauwi at humiga sa sofa dahil nakakadrain ng energy ang ginawa ko kanina.
+            <br><br>
+            Ngunit...
+            <br><br>
+            Paano kung totoo na buhay pa si Atasha?...
+            <br><br>
+            Si Atasha ay isang ano?...
+            <br><br>
+            ----------
+            <br><br>
+            "tagumpay..."
+            <br><br>
+            "naihanda ko na po ang ating panauhin mahal na hari..."
+            <br><br>
+            "magaling... bukas ng umaga..."
+            <br><br>
+            "magsisimula na tayong sakupin ang mundo..."
+            <br><br>
+            TO BE CONTINUED.
+        </p>
+    </div>
+    <br>
 </body>
 <script>
     function back() {
