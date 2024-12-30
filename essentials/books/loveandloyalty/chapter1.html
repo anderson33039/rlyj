@@ -12,13 +12,32 @@
         background-color: rgb(236, 236, 236);
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    #story {
-        font-size: xx-large;
-        text-align: center;
-    }
-    button {
+    .glass_button {
+        background-color: gray;
         position: sticky;
         top: 10px;
+        width: auto;
+        height: 70px;
+    }
+    .story_container {
+        color: black;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #story {
+        text-align: justify;
+        text-align-last: left;
+        hyphens: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 20px;
+        width: 800px;
+        font-weight: 500;
+    }
+    button {
         height: 50px;
         width: 100px;
         border: 2px solid black;
@@ -32,106 +51,112 @@
     }
 </style>
 <body>
-    <button id="back" onclick="back()"><b>BACK TO MAIN MENU</b></button>
+    <div class="glass_button">
+        <button id="back" onclick="back()"><b>BACK TO MAIN MENU</b></button>
     <button id="back" onclick="next();"><b>NEXT CHAPTER</b></button>
+    </div>
+    
     <h1>CHAPTER 1</h1><br>
-    <p id="story">
-        Zyro hiroshi villamore
-        <br><br>
-        I am Zyro Hiroshi Villamore. I managed to live more than a century. Nasaksihan ko ang digmaan, ang mga labanan, at hanggang sa kasalukuyan ay nananatili ako sa mundong ating kinagagalawan. I am currently living in a peaceful town and walang nakakaalam at dapat na walang makaalam na isa akong bampira. I went through every universities just to pretend na isa akong normal na tao. Natutunan ko ang mga galawan at paano sila kumilos kaya hanggang ngayon ay hindi pa nila nalalaman.
-        <br><br>
-        Kasalukuyan akong nag-iiscroll sa facebook habang nakatambay dito sa coffee shop at kumakain ng chocolate cake at umiinom ng kape. Kumbaga nagiging daily routine ko na to. Kaya sinasabihan akong suki dito. Actually kaya lang naman ako nandito dahil ito ang pinakamalapit na coffee shop sa school at apartment ko kaya no choice kahit ang tabang ng tinitimpla nila na kape.
-        <br><br>
-        Nang matapos na ako, nag-iwan ako ng tip sa table at umalis pauwi ng bahay. I wanna sleep, sobrang aga ko nagising like 5:00am ang unang period namin. Yes, ako lang ata ang bampirang antukin sa umaga. Pake nyo ba.
-        <br><br>
-        Jake texted me na pupunta raw sila sa apartment just to celebrate kasi nga nasa top student ako. Well, kaka-enroll ko, paulit-ulit na lang kaya nasasanay at halos walang mali sa mga ginagawa ko. Kahit si Aristotle naging teacher ko yan, dalawang taon bago sya mawala, joke. Hays, nakakamiss duguin kakaisip kasi talagang mahina ako sa science.
-        <br><br>
-        So ayon, pupunta raw sila sa apartment kaya namalengke ako para makapagluto at nakakahiya naman kasi sa mga yon. Halos lagi nga sila nasa bahay, parang nagiging mga anak ko na sila. I am over 43,323 years old. But I keep saying na 21, every birthday ko kalahating taon lang tatagal tapos 21 na ulit ako. Bawal tumanda, baka 50 na ako pogi pa rin, huy. 
-        <br><br>
-        Oo, dumadating yung araw na yung mga kaklase ko 10 years ago, nagtataka sila bakit di ako tumatanda. Pero I keep erasing their thoughts about it. Luckily hindi ako yung tipong vampire na class C, kumabaga sa vampire state may classes. Isa akong class A vampire, kaya ko uminom ng kahit anong inumin at kaya ko kumain ng lutong pagkain. Actually ang favorite ko yung tinola. So marahil nagtataka kayo bakit sa tagal ko na nabubuhay, bakit wala akong bebeloves? Actually, may past ako dyan. 500 years ago, meron akong pinakasalang babae, her name is Atasha. Atasha was a good wife to me, sadly bawal kami magkaanak. Dahil kapag nagkataong nabuntis ko sya, magiging demonyo ang anak namin at maaaring makasira sa mundo. But after 80 years, kinuha na sya sakin ng langit.
-        <br><br>
-        Marahil nagtataka rin kayo kung bakit hindi ko sya kinagat para maging vampire... No! Thats not how it works duh. As you see, when I suck kahit maliit na blood, it will drive me crazy and I might kill my own wife. We have no choice but to accept the fate na hindi kami magtatagal. Sus, tama na nga chismisan jusko to.
-        <br><br>
-        I bought some vegetables, lulutuan ko sila ng adobong gulay. Favorite kasi nila yon, syempre ako na to. So after ko bumili ng mga sangkap, umuwi na ako agad para makapagluto. Actually helpful din ang ability ko dahil napapabilis ko ang mga gawain ko. Actually di lang halata pero best cooker ako. Inaral ko ang cooking for myself and di ko inakalang magagamit ko rin ito sa mga kaibigan ko.
-        <br><br>
-        Currently living alone, since bata pa lang ako iniwan na ako ng mga magulang ko. They left me because they saw my red eyes na nagrereflect sa moon. I never thought na bampira ako before. Tumira ako sa bahay-ampunan at marami akong natutunan doon. Mababait naman silang lahat. Salamat sa mga nag-alaga sakin at hanggang ngayon masigla ako.
-        <br><br>
-        After ko magluto, nag-ayos na ako ng sala at inayos ko na rin ang mga pagkain sa hapag-kainan para pagdating nila kakain na lang. Ilang minuto pa ang nakalipas, nagsidatingan na sila Jake, Yohan, Astra, Kiyan, at Ryle.
-        <br><br>
-        "Yo the hell, sobrang linis ng bahay ah." Saad ni Jake at nilibot ang kaniyang paningin.
-        <br><br>
-        "Lugi, buti pa si Zyro marunong maglinis ng bahay. Diba Ryle?" Pang-aasar na saad nito kay Ryle.
-        <br><br>
-        "Please, have a sit." Saad ko at umupo na sila sa sofa at binuksan ko ang TV para may libangan sila. 
-        <br><br>
-        Naglagay na ako ng pagkain sa bowl at nilagay ko ito sa tray kasama ang kanilang mga eating utensils. Pumunta naman si Kiyan para tulungan ako na dalhin ang mga pagkain sa sala upang makakain na sila.
-        <br><br>
-        Jake is a type of person na palabiro at masiyahin. While Yohan is one of top our top student in class. Si Ryle naman, pinakapasaway samin. And si Kiyan ang pinaka cold sa grupo. Actually, di ko lang alam kung bakit namin to naging kaibigan. Wala naman problema sa actions nya pero unexpected pa rin kasi ang cold nya.
-        <br><br>
-        We spent our time together and nang pumatak ng alas sais ang oras ay napagdesisyonan na nilang umuwi para makapagpahinga dahil may pasok pa bukas. Nang makalabas na ang lahat, sinigurado ko na walang taong makakakita sakin kapag naglilinis dahil I could do it in a blink of an eye.
-        <br><br>
-        After ko maglinis, natulog nako para bukas, dahil papasok nanaman akong pogi.
-        <br><br>
-        ----------------------
-        <br><br>
-        [kinabukasan]
-        <br><br>
-        Alas dos pa lang nasa school nako. I mean yes wala pang guard. Ni hindi pa nakabukas ang gate non. Inaagahan ko ang pasok ko dahil mahulig akong magbasa sa library. I read books there kung anong matipuhan ko. Halos ilang oras din ako nandoon dahil di nila pinapatay ang wifi. Then before 5, uuwi muna ako saglit para magbihis at babalik ulit after 3mins. Ganon ako kabilis kumilos, talagang useful ang ability ko.
-        <br><br>
-        [6:00am]
-        <br><br>
-        "Aga mo talaga lagi Zyro." Saad ni Yohan at napailing habang nakangiti.
-        <br><br>
-        "I need to, marami pa akong rereviewhin." Nonchalant kong saad. Trying hard maging cold, dagdag cool points.
-        <br><br>
-        Di ko namalayan na nasa tabi ko na si Kiyan kaya nagulat ako mga 50%, kakaiba talaga to na tao na to.
-        <br><br>
-        Ilang oras pa ang lumipas ay nagsimula na ang klase at as usual ako nanaman ang outstanding. Tatlong period ang tinapos namin before mag recess. May naramdaman akong kakaiba kanina habang nasa klase pero binalewala ko na lang ito. Baka masyado lang akong nagkakape.
-        <br><br>
-        Recess time at nasa canteen ako upang kumain at magkaroon ng peace of mind. Since bawal ang horseplaying sa canteen. Habang nakain at nagbabasa ng libro o sabihin nating novel, napalingon ako sa isang bbabaeng nakatalikod. Kakaiba ang aura nya. So bright and parang di ako mapakali, napabalik ulit ako sa binabasa ko at nang tignan ko ulit siya ay wala na sya sa inuupuan nya. Baka namamalik-mata lang ako.
-        <br><br>
-        Since then, lagi ko na naiisip ang babaeng iyon, parang gusto ko alamin kung sino ba sya at bakit parang familiar ang kaniyang aura. Hindi ko mapigil at nang matapos ang klase ay inabangan ko ang babaeng iyon ngunit walang kahit isang babaeng may kaparehong aura ang nasalubong ko. So weird. Lalo akong natithrill na alamin ang buhay nya.
-        <br><br>
-        Nang makauwi ako, naglinis ako ulit ng bahay ay nagluto para sa sarili ko. Di sila pupunta ngayon dahil may group work sila para sa kanilang performance. kayat natuulog muna ako sandali para mapahinga ang aking utak.
-        <br><br>
-        Nagising ako ng madaling araw dahil may nag doorbell kayat dali kong pinuntahan iyon at pagbukas ko ay walang tao. Ngunit paglingon ko sa sala ay nandon na si Kiyan nakaupo at nakatingin sakin.
-        <br><br>
-        "Nakita mo rin sya diba?" Tanong nya sakin.
-        <br><br>
-        "Anong ibig mong sabihin?" tanong ko sa kaniya.
-        <br><br>
-        Sa isang kurap lang ay napunta na sya sa harapan ko at namumula ang kaniyang mga mata. Alam kong isa ka ring bampira Zyro. Saad nya na aking ikinabigla. "Alam ko rin na nakita mo rin ang babaeng may maliwanag na aura." Dagdag nya.
-        <br><br>
-        "Oh?" tanging saad ko at nagteleport sa sofa at umupo na may hawak na juice. "Anong meron sa babaeng yon?" saad ko at humigop sa juice na hawak ko.
-        <br><br>
-        "Natitiyak ko na isa rin siyang bampira, ngunit hindi dapat maliwanag ang kaniyang aura dahil ang bampira ay dapat maitim at may bahid ng lila ang kulay." Saad nya sakin. "bilib nga ako sayo at kaya mo itago ang aura mo, isa ka bang class A?" tanong niya.
-        <br><br>
-        "Oo, at alam kong ikaw rin, dahil di ko nakita ang aura mo." nakangiting saad ko rito. "Pero anong kinalaman ng babaeng yon dito?" tanong ko.
-        <br><br>
-        "Dapat natin siyang mahuli at mapatay." saad nya na may seryosong tingin.
-        <br><br>
-        "Bakit? dahil ba naiiba ang aura nya?" tanong ko sa kaniya.
-        <br><br>
-        "Oo, at isa pa..."
-        <br><br>
-        "Ang ganong kaliwanag na aura..."
-        <br><br>
-        "Ay may kasamang madilim na pakay." saad ni Kiyan.
-        <br><br>
-        "Paano kung isa pala siyang mabait na bampira?" tanong ko.
-        <br><br>
-        "bampira ang pinag-uusapan natin dito Zyro, hindi anghel." saad niya at nagteleport din sa sofa. "Hindi natin alam kung anong kaya niyang gawin dahil ang itim na aura ang pinakamalakas na aura na makukuha ng isang bampira." saad ni Kiyan.
-        <br><br>
-        "so may possibility na..."
-        <br><br>
-        "Oo." saad ni Kiyan. "Malaki ang tiyansang mas higit pa satin ang lakas nya." saad ni kiyan na ikinabahala ko.
-        <br><br>
-        "kailangan natin siyang mapatay." saad ko.
-        <br><br>
-        "Pero parang may mali..."
-        <br><br>
-        To be continued.
-        </p><br>
+    <div class="story_container">
+        <p id="story">
+            Zyro hiroshi villamore
+            <br><br>
+            I am Zyro Hiroshi Villamore. I managed to live more than a century. Nasaksihan ko ang digmaan, ang mga labanan, at hanggang sa kasalukuyan ay nananatili ako sa mundong ating kinagagalawan. I am currently living in a peaceful town and walang nakakaalam at dapat na walang makaalam na isa akong bampira. I went through every universities just to pretend na isa akong normal na tao. Natutunan ko ang mga galawan at paano sila kumilos kaya hanggang ngayon ay hindi pa nila nalalaman.
+            <br><br>
+            Kasalukuyan akong nag-iiscroll sa facebook habang nakatambay dito sa coffee shop at kumakain ng chocolate cake at umiinom ng kape. Kumbaga nagiging daily routine ko na to. Kaya sinasabihan akong suki dito. Actually kaya lang naman ako nandito dahil ito ang pinakamalapit na coffee shop sa school at apartment ko kaya no choice kahit ang tabang ng tinitimpla nila na kape.
+            <br><br>
+            Nang matapos na ako, nag-iwan ako ng tip sa table at umalis pauwi ng bahay. I wanna sleep, sobrang aga ko nagising like 5:00am ang unang period namin. Yes, ako lang ata ang bampirang antukin sa umaga. Pake nyo ba.
+            <br><br>
+            Jake texted me na pupunta raw sila sa apartment just to celebrate kasi nga nasa top student ako. Well, kaka-enroll ko, paulit-ulit na lang kaya nasasanay at halos walang mali sa mga ginagawa ko. Kahit si Aristotle naging teacher ko yan, dalawang taon bago sya mawala, joke. Hays, nakakamiss duguin kakaisip kasi talagang mahina ako sa science.
+            <br><br>
+            So ayon, pupunta raw sila sa apartment kaya namalengke ako para makapagluto at nakakahiya naman kasi sa mga yon. Halos lagi nga sila nasa bahay, parang nagiging mga anak ko na sila. I am over 43,323 years old. But I keep saying na 21, every birthday ko kalahating taon lang tatagal tapos 21 na ulit ako. Bawal tumanda, baka 50 na ako pogi pa rin, huy. 
+            <br><br>
+            Oo, dumadating yung araw na yung mga kaklase ko 10 years ago, nagtataka sila bakit di ako tumatanda. Pero I keep erasing their thoughts about it. Luckily hindi ako yung tipong vampire na class C, kumabaga sa vampire state may classes. Isa akong class A vampire, kaya ko uminom ng kahit anong inumin at kaya ko kumain ng lutong pagkain. Actually ang favorite ko yung tinola. So marahil nagtataka kayo bakit sa tagal ko na nabubuhay, bakit wala akong bebeloves? Actually, may past ako dyan. 500 years ago, meron akong pinakasalang babae, her name is Atasha. Atasha was a good wife to me, sadly bawal kami magkaanak. Dahil kapag nagkataong nabuntis ko sya, magiging demonyo ang anak namin at maaaring makasira sa mundo. But after 80 years, kinuha na sya sakin ng langit.
+            <br><br>
+            Marahil nagtataka rin kayo kung bakit hindi ko sya kinagat para maging vampire... No! Thats not how it works duh. As you see, when I suck kahit maliit na blood, it will drive me crazy and I might kill my own wife. We have no choice but to accept the fate na hindi kami magtatagal. Sus, tama na nga chismisan jusko to.
+            <br><br>
+            I bought some vegetables, lulutuan ko sila ng adobong gulay. Favorite kasi nila yon, syempre ako na to. So after ko bumili ng mga sangkap, umuwi na ako agad para makapagluto. Actually helpful din ang ability ko dahil napapabilis ko ang mga gawain ko. Actually di lang halata pero best cooker ako. Inaral ko ang cooking for myself and di ko inakalang magagamit ko rin ito sa mga kaibigan ko.
+            <br><br>
+            Currently living alone, since bata pa lang ako iniwan na ako ng mga magulang ko. They left me because they saw my red eyes na nagrereflect sa moon. I never thought na bampira ako before. Tumira ako sa bahay-ampunan at marami akong natutunan doon. Mababait naman silang lahat. Salamat sa mga nag-alaga sakin at hanggang ngayon masigla ako.
+            <br><br>
+            After ko magluto, nag-ayos na ako ng sala at inayos ko na rin ang mga pagkain sa hapag-kainan para pagdating nila kakain na lang. Ilang minuto pa ang nakalipas, nagsidatingan na sila Jake, Yohan, Astra, Kiyan, at Ryle.
+            <br><br>
+            "Yo the hell, sobrang linis ng bahay ah." Saad ni Jake at nilibot ang kaniyang paningin.
+            <br><br>
+            "Lugi, buti pa si Zyro marunong maglinis ng bahay. Diba Ryle?" Pang-aasar na saad nito kay Ryle.
+            <br><br>
+            "Please, have a sit." Saad ko at umupo na sila sa sofa at binuksan ko ang TV para may libangan sila. 
+            <br><br>
+            Naglagay na ako ng pagkain sa bowl at nilagay ko ito sa tray kasama ang kanilang mga eating utensils. Pumunta naman si Kiyan para tulungan ako na dalhin ang mga pagkain sa sala upang makakain na sila.
+            <br><br>
+            Jake is a type of person na palabiro at masiyahin. While Yohan is one of top our top student in class. Si Ryle naman, pinakapasaway samin. And si Kiyan ang pinaka cold sa grupo. Actually, di ko lang alam kung bakit namin to naging kaibigan. Wala naman problema sa actions nya pero unexpected pa rin kasi ang cold nya.
+            <br><br>
+            We spent our time together and nang pumatak ng alas sais ang oras ay napagdesisyonan na nilang umuwi para makapagpahinga dahil may pasok pa bukas. Nang makalabas na ang lahat, sinigurado ko na walang taong makakakita sakin kapag naglilinis dahil I could do it in a blink of an eye.
+            <br><br>
+            After ko maglinis, natulog nako para bukas, dahil papasok nanaman akong pogi.
+            <br><br>
+            ----------------------
+            <br><br>
+            [kinabukasan]
+            <br><br>
+            Alas dos pa lang nasa school nako. I mean yes wala pang guard. Ni hindi pa nakabukas ang gate non. Inaagahan ko ang pasok ko dahil mahulig akong magbasa sa library. I read books there kung anong matipuhan ko. Halos ilang oras din ako nandoon dahil di nila pinapatay ang wifi. Then before 5, uuwi muna ako saglit para magbihis at babalik ulit after 3mins. Ganon ako kabilis kumilos, talagang useful ang ability ko.
+            <br><br>
+            [6:00am]
+            <br><br>
+            "Aga mo talaga lagi Zyro." Saad ni Yohan at napailing habang nakangiti.
+            <br><br>
+            "I need to, marami pa akong rereviewhin." Nonchalant kong saad. Trying hard maging cold, dagdag cool points.
+            <br><br>
+            Di ko namalayan na nasa tabi ko na si Kiyan kaya nagulat ako mga 50%, kakaiba talaga to na tao na to.
+            <br><br>
+            Ilang oras pa ang lumipas ay nagsimula na ang klase at as usual ako nanaman ang outstanding. Tatlong period ang tinapos namin before mag recess. May naramdaman akong kakaiba kanina habang nasa klase pero binalewala ko na lang ito. Baka masyado lang akong nagkakape.
+            <br><br>
+            Recess time at nasa canteen ako upang kumain at magkaroon ng peace of mind. Since bawal ang horseplaying sa canteen. Habang nakain at nagbabasa ng libro o sabihin nating novel, napalingon ako sa isang bbabaeng nakatalikod. Kakaiba ang aura nya. So bright and parang di ako mapakali, napabalik ulit ako sa binabasa ko at nang tignan ko ulit siya ay wala na sya sa inuupuan nya. Baka namamalik-mata lang ako.
+            <br><br>
+            Since then, lagi ko na naiisip ang babaeng iyon, parang gusto ko alamin kung sino ba sya at bakit parang familiar ang kaniyang aura. Hindi ko mapigil at nang matapos ang klase ay inabangan ko ang babaeng iyon ngunit walang kahit isang babaeng may kaparehong aura ang nasalubong ko. So weird. Lalo akong natithrill na alamin ang buhay nya.
+            <br><br>
+            Nang makauwi ako, naglinis ako ulit ng bahay ay nagluto para sa sarili ko. Di sila pupunta ngayon dahil may group work sila para sa kanilang performance. kayat natuulog muna ako sandali para mapahinga ang aking utak.
+            <br><br>
+            Nagising ako ng madaling araw dahil may nag doorbell kayat dali kong pinuntahan iyon at pagbukas ko ay walang tao. Ngunit paglingon ko sa sala ay nandon na si Kiyan nakaupo at nakatingin sakin.
+            <br><br>
+            "Nakita mo rin sya diba?" Tanong nya sakin.
+            <br><br>
+            "Anong ibig mong sabihin?" tanong ko sa kaniya.
+            <br><br>
+            Sa isang kurap lang ay napunta na sya sa harapan ko at namumula ang kaniyang mga mata. Alam kong isa ka ring bampira Zyro. Saad nya na aking ikinabigla. "Alam ko rin na nakita mo rin ang babaeng may maliwanag na aura." Dagdag nya.
+            <br><br>
+            "Oh?" tanging saad ko at nagteleport sa sofa at umupo na may hawak na juice. "Anong meron sa babaeng yon?" saad ko at humigop sa juice na hawak ko.
+            <br><br>
+            "Natitiyak ko na isa rin siyang bampira, ngunit hindi dapat maliwanag ang kaniyang aura dahil ang bampira ay dapat maitim at may bahid ng lila ang kulay." Saad nya sakin. "bilib nga ako sayo at kaya mo itago ang aura mo, isa ka bang class A?" tanong niya.
+            <br><br>
+            "Oo, at alam kong ikaw rin, dahil di ko nakita ang aura mo." nakangiting saad ko rito. "Pero anong kinalaman ng babaeng yon dito?" tanong ko.
+            <br><br>
+            "Dapat natin siyang mahuli at mapatay." saad nya na may seryosong tingin.
+            <br><br>
+            "Bakit? dahil ba naiiba ang aura nya?" tanong ko sa kaniya.
+            <br><br>
+            "Oo, at isa pa..."
+            <br><br>
+            "Ang ganong kaliwanag na aura..."
+            <br><br>
+            "Ay may kasamang madilim na pakay." saad ni Kiyan.
+            <br><br>
+            "Paano kung isa pala siyang mabait na bampira?" tanong ko.
+            <br><br>
+            "bampira ang pinag-uusapan natin dito Zyro, hindi anghel." saad niya at nagteleport din sa sofa. "Hindi natin alam kung anong kaya niyang gawin dahil ang itim na aura ang pinakamalakas na aura na makukuha ng isang bampira." saad ni Kiyan.
+            <br><br>
+            "so may possibility na..."
+            <br><br>
+            "Oo." saad ni Kiyan. "Malaki ang tiyansang mas higit pa satin ang lakas nya." saad ni kiyan na ikinabahala ko.
+            <br><br>
+            "kailangan natin siyang mapatay." saad ko.
+            <br><br>
+            "Pero parang may mali..."
+            <br><br>
+            To be continued.
+            </p>
+        </div>
+    <br>
 </body>
 <script>
     function back() {
