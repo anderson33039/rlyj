@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE AND LOYALTY (CHAPTER 4)</title>
+</head>
+<link rel="shortcut icon" href="images/loveloyalty.jpg" type="image/x-icon">
+<style>
+    body {
+        text-align: center;
+        background-color: rgb(236, 236, 236);
+    }
+    .glass_button {
+        background-color: gray;
+        position: sticky;
+        top: 10px;
+        width: auto;
+        height: 70px;
+    }
+    .story_container {
+        color: black;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    #story {
+        text-align: justify;
+        text-align-last: left;
+        hyphens: auto;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 15px;
+        line-height: 1.7;
+        margin: 20px;
+        width: 800px;
+        font-weight: 500;
+    }
+    button {
+        height: 50px;
+        width: 100px;
+        border: 2px solid black;
+        margin: 10px;
+    }
+    button:hover {
+        background-color: darkgray;
+    }
+    button:active {
+        background-color: gray;
+    }
+</style>
+<body>
+    <div class="glass_button">
+        <button id="back" onclick="previous();"><b>PREVIOUS CHAPTER</b></button>
+        <button id="back" onclick="back()"><b>BACK TO MAIN MENU</b></button>
+        <button id="back" onclick="next();"><b>NEXT CHAPTER</b></button>
+    </div>
+
+    <h1>CHAPTER 4</h1><br>
+    <div class="story_container">
+        <p id="story">
+						COMING SOON...
+				</p>
+    </div>
+    <br>
+</body>
+<script>
+    function back() {
+        window.location.href = "../loveandloyalty.html";
+    };
+    function previous() {
+        window.location.href = "chapter3.html";
+    }
+    function next() {
+        window.location.href = "chapter5.html";
+    }
+</script>
+</html>
