@@ -24,17 +24,6 @@
         height: 50%;
         background-color: gray;
     }
-    .book {
-        border: 2px solid black;
-        border-radius: 5px;
-        margin: 1%;
-    }
-    .book:hover {
-        background-color: darkgray;
-    }
-    .book:active {
-        background-color: gray;
-    }
     .book img {
         border: 2px solid black;
         margin-top: 10px;
@@ -54,6 +43,30 @@
     .header button:active {
         background-color: gray;
     }
+    .library {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding: 20px;
+
+}
+    .book {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #acacac;
+    color: #000000;
+    font-size: 15px;
+    cursor: pointer;
+}
+    @media only screen and (max-width: 768px) {
+    .book {
+        width: 230px;
+        height: 300px;
+    }
+}
 </style>
 <body>
     <div class="book-container">
